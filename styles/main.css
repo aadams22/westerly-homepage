@@ -42,10 +42,12 @@ form > * {
 input:nth-of-type(3) { height: 150px; }
 button { height: 50px; width: 30%; }
 
+header { background-color: #B2C9AB; }
+footer { background-color: #788AA3;  padding: .5em; }
 
-footer {
-	height: 40px;
-	background-color: #788AA3;
+ul > li {
+	display: inline-block;
+	padding: .5em;;
 }
 
 @media (min-width: 480px) {
