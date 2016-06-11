@@ -19,13 +19,19 @@ a {
 }
 
 section	{ height: 800px; }
-section:nth-of-type(1) { background-image: url('../media/images/gold-chain.jpg'); }
+/*section:nth-of-type(1) { background-image: url('../media/images/gold-chain.jpg'); }
+*/section:nth-of-type(1) { background-color: white; }
 section:nth-of-type(2) { background-color: white; }
 section:nth-of-type(3) { background-image: url('../media/images/contact-background.png'); }
 
 header, footer {
+	width: 100%;
 	border-bottom: 1px solid silver;
 	background-color: white;
+}
+
+header {
+	position: fixed;
 }
 
 ul, li {
@@ -41,6 +47,7 @@ h1 {
 	width: 40%;
 	margin: 10% 25%;
 	padding: 1em;
+	font-size: 1.5em;
 	color: silver;
 	background-color: white;
 	-webkit-box-shadow: 0px 0px 65px -7px silver;
@@ -53,6 +60,9 @@ h2 {
 	padding: 1em 2em;
 }
 
+em {
+	font-size: 2em;
+}
 p {
 	font-family: email;
 	font-size: 4em;
@@ -61,8 +71,11 @@ p {
 
 #contact-container {
 	border: 1px solid  #E8DDB5;
-	background-color: #FFFAFD;
+	background-color: #faf8ef;
 	opacity: .6;
 	position: absolute;
 	margin: 20% 10%;
+	-webkit-box-shadow: 0px 0px 65px -7px silver;
+  -moz-box-shadow: 0px 0px 65px -7px silver;
+  box-shadow: 0px 0px 65px -7px silver;
 }
