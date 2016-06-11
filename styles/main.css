@@ -4,54 +4,6 @@
 	text-align: center;
 	font-family: 'Alegreya Sans', sans-serif;
 	color: #E8DDB5;
-}
-
-
-section	{ height: 800px; }
-section:nth-of-type(1) { background-color: #788AA3; }
-section:nth-of-type(2) { background-color: #92B6B1; }
-section:nth-of-type(3) { background-color: #B2C9AB; }
-
-.name-container {
-	height: 100px;
-	border: 1px solid #E8DDB5;
-	border-radius: 15px;
-}
-
-h1 {
-	font-size: 50px;
-}
-
-.data {
-	padding: 2em;
-	margin-top: 15%;
-	font-size: 1.5em;
-	border: 1px solid #E8DDB5;
-	border-radius: 15px;
-}
-
-h2 { padding: 2em; }
-
-form > * {
-	width: 80%;
-	margin-top: 1em;
-	padding: 1em;
-	font-size: 1em;
-}
-
-input:nth-of-type(3) { height: 150px; }
-button { height: 50px; width: 30%; }
-
-header { background-color: #B2C9AB; }
-footer { background-color: #788AA3;  padding: .5em; }
-
-ul > li {
-	display: inline-block;
-	padding: .5em;;
-}
-
-@media (min-width: 480px) {
-    form > * {
-    		width: 50%;
-    }
+	background-color: black;
+	font: white;
 }
