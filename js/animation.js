@@ -2,7 +2,7 @@
 
 $(function(){
 
-
+	//Hiding all elements on screen to be shown later
 	$('#second').hide();
 	$('#third').hide();
 	$('#fourth').hide();
@@ -11,6 +11,8 @@ $(function(){
 	$('#seventh').hide();
 	$('#eigth').hide();
 
+
+	//Slideshow
 	$('#first').delay(2000).fadeOut(1000);
 	$('#second').delay(3000).fadeIn(1000);
 
@@ -27,7 +29,6 @@ $(function(){
 	$('#fourth').delay(3000).fadeOut(1000);
 	$('#fifth').delay(3000).fadeOut(1000);
 	$('#sixth').delay(3000).fadeOut(1000);
-
 
 	$('#seventh').delay(18000).fadeIn(1000);
 	$('#eigth').delay(19000).fadeIn(1000);
