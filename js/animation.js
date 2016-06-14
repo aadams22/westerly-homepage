@@ -11,7 +11,7 @@ $(function(){
 	$('#seventh').hide();
 	$('#eigth').hide();
 
-		//Slideshow
+	//Slideshow
 	function slideshow(){
 		$('#first').delay(2000).fadeOut(1000);
 		$('#second').delay(3000).fadeIn(1000);
@@ -40,7 +40,10 @@ $(function(){
 		$('#first').delay(28000).fadeIn(1000);
 	}
 
+	//Runs slideshow for the first time.
 	slideshow();
+
+	//Repeats slideshow
 	setInterval(slideshow, 40000);
 
 

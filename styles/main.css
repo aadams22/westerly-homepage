@@ -37,6 +37,7 @@ ul, li {
 }
 
 li:nth-of-type(2) { font-size: 1.5em; }
+li:hover { opacity: .7; }
 
 h1 {
 	position: absolute;
