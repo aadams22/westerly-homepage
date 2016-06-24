@@ -10,8 +10,9 @@
 	margin: 0 auto; 
 	text-align: center;
 	font-family: 'Alegreya Sans', sans-serif;
-	color: #E8DDB5;
-	font: white;
+/*	color: #E8DDB5;*/
+	color: #f9d14a;
+/*	color: #e0c35f;*/
 }
 
 a { text-decoration: none; }
@@ -41,16 +42,16 @@ li:hover { opacity: .5; }
 
 h1 {
 	position: absolute;
-	border: 1px solid silver;
+	border: 1px solid #4d4d5a;
 	width: 40%;
 	margin: 25% 27%;
 	padding: 1em;
 	font-size: 2em;
-	color: silver;
+	color: #4d4d5a;
 	background-color: white;
-	-webkit-box-shadow: 0px 0px 65px -7px silver;
-  -moz-box-shadow: 0px 0px 65px -7px silver;
-  box-shadow: 0px 0px 65px -7px silver;
+	-webkit-box-shadow: 0px 0px 65px -7px #4d4d5a;
+  -moz-box-shadow: 0px 0px 65px -7px #4d4d5a;
+  box-shadow: 0px 0px 65px -7px #4d4d5a;
 }
 
 h2, h4 {
@@ -58,20 +59,21 @@ h2, h4 {
 	padding: 1em 2em;
 }
 
-h2 { color: silver;	}
-h4 { color: #BFCCD5; }
+h2 { color: #4d4d5a;	}
+/*h4 { color: #BFCCD5; }*/
+h4 { color: #4d4d5a; }
 
 em { font-size: 2.5em; }
 
 #seventh, #eigth { font-size: 3em; }
-#seventh { color: silver; }
+#seventh { color: #4d4d5a; }
 #eigth { color: #E8DDB5; }
 
 p { padding-bottom: 3em; }
 p > a {
 	font-family: email;
 	font-size: 4em;
-	color: silver;
+	color: #4d4d5a;
 }
 
 
@@ -80,12 +82,15 @@ p > a {
 	background-color: white;
 	opacity: .6;
 	position: absolute;
-	margin: 20% 6%;
-	-webkit-box-shadow: 0px 0px 65px -7px silver;
-  -moz-box-shadow: 0px 0px 65px -7px silver;
-  box-shadow: 0px 0px 65px -7px silver;
+	-webkit-box-shadow: 0px 0px 65px -7px #4d4d5a;
+  -moz-box-shadow: 0px 0px 65px -7px #4d4d5a;
+  box-shadow: 0px 0px 65px -7px #4d4d5a;
 }
 
+/*#contact-container:after {
+	margin: 20% 6%;
+}
+*/
 img { width: 30%;}
 
 
