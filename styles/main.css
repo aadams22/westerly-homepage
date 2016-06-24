@@ -100,9 +100,7 @@ img { width: 30%;}
     h1 {
        	margin: 15% 25%;
     }
-    #contact-container {
-/*    		margin: 15% 18%;*/
-    }
+
     section:nth-of-type(3) {
     	height: 800px;
     }
