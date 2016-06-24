@@ -26,7 +26,7 @@ section:nth-of-type(3) { background-color: #BFCCD5; height: 1000px;}
 
 header, footer {
 	width: 100%;
-	border-bottom: 1px solid silver;
+	border-bottom: 1px solid #4d4d5a;
 	background-color: white;
 }
 
@@ -37,7 +37,7 @@ ul, li {
 	padding: .3em;
 }
 
-li:nth-of-type(2) { font-size: 1.5em; }
+li:nth-of-type(2) { font-size: 1.5em; color: #e0c35f;	}
 li:hover { opacity: .5; }
 
 h1 {
